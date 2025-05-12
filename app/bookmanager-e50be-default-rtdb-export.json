@@ -1,0 +1,69 @@
+{
+  "Books": {
+    "bookId1": {
+      "id": "bookId1",
+      "title": "Tiêu đề sách 1",
+      "description": "Mô tả sách 1",
+      "category": "Tiểu thuyết",
+      "url": "URL_ảnh_bìa",
+      "viewsCount": 0,
+      "downloadsCount": 0,
+      "createdBy": "LuongMarus",
+      "timestamp": 1234567890
+    },
+    "bookId2": {
+      "id": "bookId2", 
+      "title": "Tiêu đề sách 2",
+      "description": "Mô tả sách 2",
+      "category": "Khoa học",
+      "url": "URL_ảnh_bìa",
+      "viewsCount": 0,
+      "downloadsCount": 0,
+      "createdBy": "LuongMarus",
+      "timestamp": 1234567890
+    }
+  },
+  "Categories": {
+    "categoryId1": {
+      "id": "categoryId1",
+      "name": "Tiểu thuyết",
+      "createdBy": "LuongMarus",
+      "timestamp": 1234567890
+    },
+    "categoryId2": {
+      "id": "categoryId2",
+      "name": "Khoa học",
+      "createdBy": "LuongMarus", 
+      "timestamp": 1234567890
+    }
+  },
+  "Users": {
+    "userId1": {
+      "id": "userId1",
+      "name": "Nguyễn Văn A",
+      "email": "nguyenvana@gmail.com",
+      "userType": "user",
+      "createdBy": "LuongMarus",
+      "timestamp": 1234567890
+    }
+  },
+  "Favorites": {
+    "favoriteId1": {
+      "id": "favoriteId1",
+      "bookId": "bookId1",
+      "userId": "userId1",
+      "timestamp": 1234567890,
+      "createdBy": "LuongMarus"
+    }
+  },
+  "Comments": {
+    "commentId1": {
+      "id": "commentId1",
+      "bookId": "bookId1",
+      "userId": "userId1",
+      "content": "Sách rất hay!",
+      "timestamp": 1234567890,
+      "createdBy": "LuongMarus"
+    }
+  }
+}
